@@ -1,0 +1,46 @@
+body{
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: normal;
+}
+
+.topBar{
+  /* height:6vh; */
+  min-height:6vh ;
+  width:100vw;
+
+}
+.topBarContainer{
+  padding:20px 40px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  
+}
+.logoContainer{
+  flex:1
+}
+.navLinksContainer{
+display: flex;
+}
+.navLinks{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.links{
+  margin:0 5px;
+  padding:10px 10px;
+}
+
+/* .links:first-child{
+  margin-right: 5px;
+  margin-left: 0px;
+} */
+.signUp{
+  outline: none;
+  border: none;
+  margin:0px 40px;
+  padding:0px 16px;
+  /* border-radius: 40px; */
+  background-color: #4B8AF3;
+}
